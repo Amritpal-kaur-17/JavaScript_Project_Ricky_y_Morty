@@ -1,0 +1,65 @@
+*{
+  box-sizing: border-box;
+}
+#header{
+    background-color:rgb(116, 113, 113);
+    font-size: 30px;
+    font-weight: bold;
+    color:white;
+}
+#episodeSection{
+    text-align: left;
+    margin-left: 2px;
+    margin-right: 100px;;
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#episodeSection {
+    float: left;
+    width: 80%;
+    
+    background: whitesmoke;
+    padding: 20px;
+    position:relative;
+    top:3px;
+  }
+
+#container {
+    float: right;
+    padding: 20px;
+    width: 68%;
+    
+    margin-right: -9px;
+    background-color:whitesmoke;
+  
+  }
+  
+  .charImage{
+   
+    width:150px;
+  }
+  .charDetail{
+    width:150px;
+    clear:both;
+  
+  }
+  #Characters{
+    
+    position:relative;
+    top:10px
+  }
+
+  .character_container{
+    display: flex;
+    padding:5px;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+}
+#mainSection{
+  display: flex;
+}
